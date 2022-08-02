@@ -1,0 +1,276 @@
+
+#coverphoto {
+  border: solid gray 2px;
+  width: 100%;
+  max-width: 300px;
+}
+
+.author-pic {
+  width: 100%;
+  border: solid gray 2px;
+}
+
+.book-rec {
+  max-width: 500px;
+}
+
+.card-width {
+  max-width: 350px;
+}
+
+.space {
+  margin-bottom: 20px;
+}
+.unite-video {
+  width: 75%;
+  height: 440px;
+}
+
+.responsive {
+  width: 100%;
+  height: 0;
+  padding-bottom: 75%;
+  position: relative;
+}
+
+.responsive iframe {
+  width: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.video-player {
+  margin-bottom: 20px;
+}
+
+.alert-bookcover {
+  width: 100%;
+}
+
+.big-bookcover {
+  width: 65%;
+  height: auto;
+
+  margin-bottom: 20px;
+}
+
+.footer {
+   background-color: WhiteSmoke;
+   border: solid GainsBoro 1px;
+   margin-top: 30px;
+   padding-top: 20px;
+   /* padding-bottom: 5px; */
+}
+
+.uniteamerica {
+  width: 100%;
+}
+
+.floated {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 30%;
+    border: solid gray 2px;
+}
+
+.bookcover {
+  width: 90%;
+  /* height: 290px;
+  width: auto; */
+}
+
+@media only screen and (max-width: 576px) {
+
+  .floated {
+    float: none;
+    display: block;
+    margin: auto;
+    width: 65%;
+    margin-bottom: 10px;
+  }
+
+  .grid-item {
+    width: 70%;
+    display: block;
+    margin: auto;
+  }
+
+  #coverphoto {
+    /* width: 60px; */
+  }
+
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  h2 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  h3 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  h5 {
+    font-size: 16px;
+    /* font-weight: bold; */
+  }
+}
+
+@media only screen and (max-width: 768px) {
+
+  .book-rec {
+    max-width: 250px;
+  }
+
+  .alert-bookcover {
+    width: 45%;
+  }
+
+  #coverphoto {
+    float: none;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+
+}
+
+@media only screen and (max-width: 992px) {
+  .bookcover {
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 45%;
+  }
+
+  .author-pic {
+    width: 40%;
+    margin-bottom: 20px;
+  }
+
+  .unite-video {
+    width: 100%;
+    height: 320px;
+  }
+
+  /* .floated {
+    width: 5px;
+  } */
+
+  #coverphoto {
+    width: 100%;
+    height: auto;
+  }
+
+}
+
+.icon {
+  width: 300px;
+
+  margin-bottom: 30px;
+}
+
+.small-icon {
+  width: 35%;
+}
+
+.nav-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 20px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-right: 40%;
+}
+
+.grid-item {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+
+.item1 {
+  grid-column-start: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+h1, h2, h3
+{
+  text-align: left;
+}
+
+h1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+p
+{
+  text-align: left;
+}
+
+
+nav .nav-item
+{
+    /* size for brand */
+    font-size: large;
+}
+
+
+main .form-control
+{
+    /* center form controls */
+    display: inline-block;
+
+    /* override Bootstrap's 100% width for form controls */
+    width: auto;
+}
+
+main
+{
+    /* scroll horizontally as needed */
+    /*overflow-x: auto;*/
+
+    /* center contents */
+    text-align: center;
+
+    margin-top: 20px;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+main img
+{
+    /* constrain images on small screens */
+    max-width: 100%;
+}
+
+.anchor {
+  display: block;
+  height: 100px; /*same height as header*/
+  margin-top: -100px; /*same height as header*/
+  visibility: hidden;
+}
