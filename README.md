@@ -1,6 +1,4 @@
-# Project 0
-
-Web Programming with Python and JavaScript
+# charleswheelan.com
 
 This website is for my dad, Charles Wheelan, who is an author and desperately needed a more modern website.
 
@@ -21,4 +19,4 @@ guy.html - This page (titled Guy Next Door) is just about my dad's personal life
 contact.html - This page is very simple. It provides a link to his email to contact him, as well as his office address. Finally, it has a link to his Facebook page, and a link to his Twitter.
 
 Additional Info:
-I tried to make this website as mobile compatible as possible, relying heavily upon Bootstrap's column layout and @ media queries. Unfortunately, I could not figure out how to install SCSS on my computer, so I could not fulfill that requirement for the website. I spent a lot of time working on it and I am very proud of my final product!
+I tried to make this website as mobile compatible as possible, relying heavily upon Bootstrap's column layout and @ media queries.
